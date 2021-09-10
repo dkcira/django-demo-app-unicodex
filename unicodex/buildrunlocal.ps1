@@ -13,3 +13,6 @@ docker-compose run --rm web python manage.py loaddata sampledata
 
 # start dockers in background (detached mode)
 docker-compose up -d
+
+# disable debug
+Set-PSDebug -Trace 1
